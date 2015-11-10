@@ -1,0 +1,144 @@
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #f9f9f9;
+  width: 1366px;
+  height: 950px;
+  margin: 0 auto;
+}
+h1 {
+  padding-top: 50px;
+  font-weight: bold;
+  text-align: center;
+} 
+p {  font-size: 14px;
+  line-height: 21px;
+  width: 677px;
+  display: block;
+  padding-left: 360px;
+  padding-top: 14px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.button {
+  display:block;
+}
+.menu {
+  background: url(../img/panel.png ) no-repeat;
+  width: 966px;
+  height: 40px;
+  color: #4f4f4f;
+  margin: 36px 50px 0px;
+  padding-left: 14px;
+}
+.menu li {
+  float: left;
+  margin-right: 15px;
+  display: inline-block;
+}
+.menu li a {
+  display: block; 
+  padding: 7px 9px;
+  position: relative;
+}
+.current {
+  margin-right: 47px;
+}
+.button {
+  margin:-7px -16px 0px -19px;
+  width: 101px;  
+  height: 40px;
+}
+.about {
+  margin-right: 48px;
+}
+#wrapper {
+	background-color: white;
+	width: 1062px;
+	height: 950px;
+	border:1px solid #c8c8c8;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+	margin: 0 auto;
+}
+.header {
+  width: 1062px;
+} 
+.logo {
+  padding-left: 49px;
+  padding-top: 48px;
+}
+.sidebar {
+  width: 240px;
+  height: 240px;
+  padding-left: 49px;
+  padding-top: 20px;
+}
+table {
+  width: 240px;
+  height: 240px;
+  line-height: 14px;
+  border-collapse: collapse;
+  border: 1px solid #c8c8c8;
+  margin-top: 20px;
+  color: #656363;
+}
+td {
+  border-bottom:1px solid #cccccc;
+  padding:10px;
+  font-size: 14px;
+  padding-left: 21px;
+}
+tr {
+  padding-left: 19px;}
+  .content{
+  width: 678px;
+  padding-left: 336px;
+  margin-top: -222px;}
+tr:nth-child(3) {
+  background-color: #f9f9f9;
+  color: #2c2c2c;
+}   
+.active {
+  position: relative;
+  left: 13px;
+}
+.footer {
+  font-size: 14px;
+  background: url(../img/footer.png ) no-repeat;
+  width: 966px;
+  height: 40px;
+  color: #e1e1e1;
+  margin: 61px 50px 0px;
+  padding-left: 14px;
+}
+.footer li {
+  float: left;
+  margin-right: 25px;
+  display: inline-block;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+.footer li a {
+  display: block; 
+  padding: 11px 10px;
+  position: relative;
+}
+.current {
+  margin-right: 43px;
+}
+.goods {
+  margin-right: 44px;
+}
+.about {
+  margin-right: 44px;
+}
+.contacts {
+  margin-right: 229px;
+}
