@@ -64,7 +64,7 @@ header {
 }
 .conteiner {
   float:right;
-  width: 675px;
+  width: 678px;
 }
 .text {
   margin:50px 0px;
@@ -87,6 +87,7 @@ header {
 }
 .text1 {
   float: right;
+  padding-right: 24px;
 }
 .links li a:hover{
   text-decoration: underline;
