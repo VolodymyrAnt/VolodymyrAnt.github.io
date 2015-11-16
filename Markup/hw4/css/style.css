@@ -1,0 +1,143 @@
+body {
+  font-family: Tahoma, Arial, sans-serif;
+  font-size:13px;
+  background: url(../img/bg.png) top repeat-x #0c739f;
+}
+h5{
+  font-weight: bold;
+} 
+.wrapper {
+  width:1000px;
+  background-color: #fff;
+  line-height: 25px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.8);
+  margin:0 auto;
+} 
+header {
+  display: block;
+  line-height: 15px;
+  color:#6699cc;
+  list-style: none; 
+  padding:9px 30px 0px 30px;
+} 
+.logo{
+  float: left;
+}
+.conteiner{
+  float:right;
+  width: 360px;
+}
+.contacts{
+  line-height: 17px;
+  font-size:12px;
+  float:right;
+}
+.countries{
+  float: right;
+  margin-top: 34px;
+  font-size: 10px;
+  line-height: 12px;
+}
+.countries li{
+  width: 55px;
+  float:left;
+  text-align: center;
+}
+.photo{
+ border-top:1px solid #009999;
+  border-bottom: 1px solid #009999;
+  height: 237px; 
+}
+.menu{
+  background: #333;
+  border-bottom: 1px solid #000;
+  padding-left:45px;
+}
+.nav li{
+  float: left;
+  position:relative;
+  display:block;
+}
+.nav>li>a{
+  float:left;
+  color:#fff;
+  text-decoration: none;
+  display:block;
+  padding-right: 55px;
+  padding-left: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0);
+  line-height: 30px;
+}
+.nav ul{
+  position:absolute;
+  left:-9999px;
+  opacity:0;
+  top: 26px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.9);
+}
+.nav ul a{
+  color: white;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.nav li:hover ul{
+  left:0;
+  opacity:1;
+  background: #333;
+}
+.nav li a:hover{
+  color:#fff;
+  background: #333;
+  border-bottom: 1px solid #fff;
+}
+a:visited{
+  color: #128aa7;
+}
+.content{
+  width: 1000px;
+  background:url(../img/content.png);
+  float:left;
+}
+.rightcolumn{
+ width: 210px;
+ float: right;
+}
+.rightcolumn h1{
+  font-size: 18px;
+  color: #333;
+  line-height: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+.rightcolumn p{
+  margin: 8px 20px;
+}
+.centercolumn{
+ width: 520px;
+ float:left;
+ padding: 8px 30px;
+}
+.leftcolumn{
+  width: 210px;
+  float: left;
+}
+.leftcolumn h1{
+  font-size: 18px;
+  color: #333;
+  line-height: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+.leftcolumn p{
+  margin: 8px 20px;
+}
+.footer{
+  color: #ccffff;
+  text-align:center;
+  margin:9px;
+}
+ .clearfix:after{
+  content:'';
+  clear:both;
+  display: block;
+}
