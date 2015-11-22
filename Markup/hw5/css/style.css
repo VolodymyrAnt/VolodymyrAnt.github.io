@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'Helvetica Neue Regular';
+  src: url('helvetica-webfont.eot');
+  src: url('helvetica-webfont.eot?#iefix') format('embedded-opentype'),
+  url('helvetica-webfont.woff2') format('woff2'),
+  url('helvetica-webfont.woff') format('woff'),
+  url('helvetica-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  height:100%;
+}
+body {
+  font-family: "Helvetica Neue Regular", Arial, sans-serif;
+  font-size:14px;
+  line-height: 40px;
+  background: url(../img/bg.png)top repeat-x;; 
+  background-size: cover;
+  height: 100%;
+}
+.wrapper {
+  background: url(../img/top-menue.png) repeat-x;
+}
+.menu {
+  width: :1000px;
+  margin: 0 auto;
+}
+.leftmenu {
+  float:right;
+}
+.leftmenu li {
+  float:left;
+}
+.leftmenu li a {
+  color: #66ccff;
+  text-decoration: none;
+  display: block;
+  padding: 0px 10px;
+}
+.leftmenu li a:hover {
+  background: #6699cc;
+  color:#fff;
+}
+.vline {
+  float:right;
+}
+.vline img {
+  vertical-align: middle;
+}
+.rightmenu {
+  color:#fff;
+  text-decoration: none;
+  float:right;
+}
+.rightmenu li {
+  float:left;
+  color:#fff;
+  padding: 0 13px;
+}
+.rightmenu a {
+  text-align: center;
+  color:#fff;
+}
+.rightmenu li p span {
+  text-decoration: underline;
+}
+.rightmenu li:last-child {
+  background: #6699cc;
+}
+.rightmenu img {
+  vertical-align: middle;
+  padding: 10px;
+}
+.head {
+  width: 550px;
+  margin:240px auto;
+  color:#ccc;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.form {
+  width: 275px;
+  margin: 0  auto;
+  text-align: inherit;
+}
+.reg {
+  text-align: center;
+  border-bottom: 2px solid #cccccc;
+}
+.reg span {
+  line-height: 62px;
+  font-size:24px;
+  color:#ffffff;
+}
+.fb/* facebook button */ {
+  width: 275px;
+  background: linear-gradient(to top, #2e4476,#3b5798);
+  margin: 25px auto;
+  border-top: 1px solid #6699cc;
+  border-radius: 3px;
+  position: relative;
+}
+.fb:before {
+  position: absolute;
+  height: 34px;
+  top: 10px;
+  left: 38px;
+  margin-top: -10px;
+  content: "";
+  border-left: 1px solid rgba(0,0,0,0.1);
+  border-right: 1px solid #4d66a6;
+}
+.fb a {
+  display: block;
+  padding-left: 70px;
+  line-height: 34px;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-family:sans-serif;
+}
+.fb span {
+  font-weight: bold;
+}
+.fb a:before {
+  position: absolute;
+  font-weight: bold;
+  height: 20px;
+  width: 9px;
+  top: 50%;
+  left: 15px;
+  margin-top: -16px;
+  content: "f";
+  font-size: 20px;
+}
+.fb a:after {
+  position: absolute;
+  height: 20px;
+  content: "›";
+  width: 9px;
+  top: 50%;
+  right: 27px;
+  margin-top: -18px;
+  font-size: 18px;
+}
+.ou {
+  margin-bottom:15px;
+  text-align: center;
+  margin: 0 auto;
+  color: #999;
+  margin-bottom: 30px;
+}
+.ou span {
+  padding:0px 60px;
+  font-size: 14px;
+}
+.ou span:before,
+.ou span:after {
+  content: "";
+  width: 124px;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #666;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 6px;
+}
+.info input {
+  width: 256px;
+  height: 35px;
+  background: #000;
+  border: 1px solid #000;
+  border-bottom: 1px solid #333;
+  margin-bottom: 13px;
+  color:#ccc;
+  padding-left: 18px;
+}
+.info input:focus {
+  width: 256px;
+  height: 35px;
+  background: #336699;
+  border: 1px solid #6699cc;
+  box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.2),
+  0px 0px 12px 2px rgba(47,122,197,1),
+  inset 0px -1px 0px 0px rgba(104,156,204,1);
+  margin-bottom: 13px;
+  color:#fff;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(51,102,153,1);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(51,102,153,1);
+  box-shadow: 0px 0px 6px 0px rgba(51,102,153,1);
+}
+.newaccount {
+  text-align: center;
+}
+.newaccount input {
+  border: 1px solid #6bb9e7;;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 150px;
+  margin: 10px 0;
+  color: #ffffff;
+  height: 35px;
+  background: linear-gradient(to top, #2e7ac4, #50afdc);
+}
+.head p {
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+}
+.clearfix:after {
+  content:'';
+  clear: both;
+  display: block;
+}
