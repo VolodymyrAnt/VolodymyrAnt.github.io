@@ -27,7 +27,7 @@ body {
   background-image: url(../img/bg-header.png);
   height: 40px;
 }
-.menu {
+.topmenu {
   width: :1000px;
   margin: 0 auto;
 }
@@ -70,12 +70,16 @@ body {
 .rightmenu li p span {
   text-decoration: underline;
 }
+.rightmenu .img {
+  position: relative;
+  overflow: hidden;
+  background-image: url(../img/flag.png);
+  background-repeat: no-repeat; 
+  background-position:16px 8px;
+  padding-left: 48px; 
+}
 .rightmenu li:last-child {
   background: #6699cc;
-}
-.rightmenu img {
-  vertical-align: middle;
-  padding: 10px;
 }
 .head {
   width: 550px;
